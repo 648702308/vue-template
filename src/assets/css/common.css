@@ -1,0 +1,133 @@
+@charset "UTF-8";
+.yui-transitioning {
+  -webkit-transition: -webkit-transform 350ms;
+  transition: transform 350ms cubic-bezier(.165, .84, .44, 1);
+}
+
+.yui-scroll {
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.el-menu {
+  border-right: none;
+}
+
+.el-table__body, .el-table__footer, .el-table__header {
+  /*border-collapse: collapse;*/
+}
+
+.yui-table-cell {
+  font-size: 14px;
+}
+
+.el-table__footer td {
+  font-size: 14px;
+}
+
+.yui-table-head {
+  height: 45px;
+  font-size: 15px;
+  color: #333;
+  font-weight: bold;
+}
+
+.page-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.blank {
+  height: 15px;
+}
+
+.card-title {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.el-card__header {
+  padding: 10px 15px;
+}
+
+.el-card__body {
+  padding: 15px;
+}
+
+.image-slot {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.y-head-menu {
+  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.y-head-menu .el-menu--horizontal {
+  background-color: transparent;
+}
+
+.el-menu--horizontal > .el-menu-item:not(.is-disabled):hover, .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus, .el-menu--horizontal > .el-menu-item.is-active {
+  color: rgb(255, 208, 75) !important;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(255, 208, 75) !important;
+}
+
+.y-head-menu .el-menu--horizontal > .el-menu-item {
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+}
+
+.el-submenu__title {
+  font-size: 15px;
+}
+
+.el-submenu__title i {
+  color: #fff;
+}
+
+.y-head-menu .el-menu.el-menu--horizontal {
+  border-bottom: none;
+}
+
+.y-head-menu .m-menu {
+  padding: 10px 5px;
+}
+
+.y-head-menu .m-menu > .el-menu-item {
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  padding: 0 7px;
+}
+
+.edit-name-prompt {
+  width: calc(100% - 30px);
+  margin: 0 15px;
+}
+
+.el-image-viewer__close .el-icon-circle-close {
+  color: #fff;
+}
+
+.red {
+  color: #F56C6C
+}
+
+.column-expand {
+  overflow: hidden;
+  display: none;
+  border: none !important;
+}
