@@ -1,4 +1,4 @@
-# friut-wholesale
+# vue-template
 
 > A Vue.js project
 
