@@ -1,6 +1,7 @@
 # vue-template
 
 > A Vue.js project
+> Vue 页面切换左右滑动效果(仿APP)
 
 ## Build Setup
 
